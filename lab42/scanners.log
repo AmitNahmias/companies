@@ -1,0 +1,96 @@
+[2022-04-28 13:52:48,079] [Scanner 3] [INFO] -> Start checking 2.2.2.2
+[2022-04-28 13:52:48,080] [Scanner 3] [INFO] -> I am running on Windows
+[2022-04-28 13:52:48,080] [Scanner 3] [INFO] -> Pinging to 2.2.2.2.
+[2022-04-28 13:52:48,089] [Scanner 0] [INFO] -> Start checking 8.8.8.8
+[2022-04-28 13:52:48,090] [Scanner 0] [INFO] -> I am running on Windows
+[2022-04-28 13:52:48,090] [Scanner 0] [INFO] -> Pinging to 8.8.8.8.
+[2022-04-28 13:52:48,122] [Scanner 1] [INFO] -> Start checking 8.8.4.4
+[2022-04-28 13:52:48,123] [Scanner 1] [INFO] -> I am running on Windows
+[2022-04-28 13:52:48,123] [Scanner 1] [INFO] -> Pinging to 8.8.4.4.
+[2022-04-28 13:52:48,124] [Scanner 2] [INFO] -> Start checking 1.1.1.1
+[2022-04-28 13:52:48,124] [Scanner 2] [INFO] -> I am running on Windows
+[2022-04-28 13:52:48,127] [Scanner 2] [INFO] -> Pinging to 1.1.1.1.
+[2022-04-28 13:52:48,167] [Scanner 2] [INFO] -> Pinging to 1.1.1.1 succeeded, 1.1.1.1 is alive.
+[2022-04-28 13:52:48,167] [Scanner 2] [INFO] -> Checking connection to 1.1.1.1 in port 1.
+[2022-04-28 13:52:48,210] [Scanner 0] [INFO] -> Pinging to 8.8.8.8 succeeded, 8.8.8.8 is alive.
+[2022-04-28 13:52:48,210] [Scanner 0] [INFO] -> Checking connection to 8.8.8.8 in port 1.
+[2022-04-28 13:52:48,231] [Scanner 1] [INFO] -> Pinging to 8.8.4.4 succeeded, 8.8.4.4 is alive.
+[2022-04-28 13:52:48,231] [Scanner 1] [INFO] -> Checking connection to 8.8.4.4 in port 1.
+[2022-04-28 13:52:51,173] [Scanner 2] [INFO] -> 1.1.1.1 not listening in port 1.
+[2022-04-28 13:52:51,173] [Scanner 2] [INFO] -> Checking connection to 1.1.1.1 in port 22.
+[2022-04-28 13:52:51,220] [Scanner 0] [INFO] -> 8.8.8.8 not listening in port 1.
+[2022-04-28 13:52:51,220] [Scanner 0] [INFO] -> Checking connection to 8.8.8.8 in port 22.
+[2022-04-28 13:52:51,235] [Scanner 1] [INFO] -> 8.8.4.4 not listening in port 1.
+[2022-04-28 13:52:51,235] [Scanner 1] [INFO] -> Checking connection to 8.8.4.4 in port 22.
+[2022-04-28 13:52:51,829] [Scanner 3] [INFO] -> Pinging to 2.2.2.2 failed, 2.2.2.2 is dead.
+[2022-04-28 13:52:51,829] [Scanner 3] [INFO] -> Done checking 2.2.2.2
+[2022-04-28 13:52:51,830] [Scanner 3] [INFO] -> Start checking 127.0.0.1
+[2022-04-28 13:52:51,830] [Scanner 3] [INFO] -> Start checking 127.0.0.1
+[2022-04-28 13:52:51,830] [Scanner 3] [INFO] -> I am running on Windows
+[2022-04-28 13:52:51,830] [Scanner 3] [INFO] -> I am running on Windows
+[2022-04-28 13:52:51,830] [Scanner 3] [INFO] -> Pinging to 127.0.0.1.
+[2022-04-28 13:52:51,830] [Scanner 3] [INFO] -> Pinging to 127.0.0.1.
+[2022-04-28 13:52:51,850] [Scanner 3] [INFO] -> Pinging to 127.0.0.1 succeeded, 127.0.0.1 is alive.
+[2022-04-28 13:52:51,850] [Scanner 3] [INFO] -> Pinging to 127.0.0.1 succeeded, 127.0.0.1 is alive.
+[2022-04-28 13:52:51,850] [Scanner 3] [INFO] -> Checking connection to 127.0.0.1 in port 1.
+[2022-04-28 13:52:51,850] [Scanner 3] [INFO] -> Checking connection to 127.0.0.1 in port 1.
+[2022-04-28 13:52:53,873] [Scanner 3] [INFO] -> 127.0.0.1 not listening in port 1.
+[2022-04-28 13:52:53,873] [Scanner 3] [INFO] -> 127.0.0.1 not listening in port 1.
+[2022-04-28 13:52:53,873] [Scanner 3] [INFO] -> Checking connection to 127.0.0.1 in port 22.
+[2022-04-28 13:52:53,873] [Scanner 3] [INFO] -> Checking connection to 127.0.0.1 in port 22.
+[2022-04-28 13:52:54,183] [Scanner 2] [INFO] -> 1.1.1.1 not listening in port 22.
+[2022-04-28 13:52:54,183] [Scanner 2] [INFO] -> Checking connection to 1.1.1.1 in port 53.
+[2022-04-28 13:52:54,213] [Scanner 2] [INFO] -> 1.1.1.1 listening in port 53.
+[2022-04-28 13:52:54,213] [Scanner 2] [INFO] -> Trying HTTPS connection to 1.1.1.1 in port 53.
+[2022-04-28 13:52:54,228] [Scanner 0] [INFO] -> 8.8.8.8 not listening in port 22.
+[2022-04-28 13:52:54,228] [Scanner 0] [INFO] -> Checking connection to 8.8.8.8 in port 53.
+[2022-04-28 13:52:54,243] [Scanner 1] [INFO] -> 8.8.4.4 not listening in port 22.
+[2022-04-28 13:52:54,243] [Scanner 1] [INFO] -> Checking connection to 8.8.4.4 in port 53.
+[2022-04-28 13:52:54,336] [Scanner 1] [INFO] -> 8.8.4.4 listening in port 53.
+[2022-04-28 13:52:54,336] [Scanner 1] [INFO] -> Trying HTTPS connection to 8.8.4.4 in port 53.
+[2022-04-28 13:52:55,895] [Scanner 3] [INFO] -> 127.0.0.1 not listening in port 22.
+[2022-04-28 13:52:55,895] [Scanner 3] [INFO] -> 127.0.0.1 not listening in port 22.
+[2022-04-28 13:52:55,895] [Scanner 3] [INFO] -> Checking connection to 127.0.0.1 in port 53.
+[2022-04-28 13:52:55,895] [Scanner 3] [INFO] -> Checking connection to 127.0.0.1 in port 53.
+[2022-04-28 13:52:56,490] [Scanner 1] [INFO] -> HTTPS connection to 8.8.4.4 in port 53 failed.
+[2022-04-28 13:52:56,491] [Scanner 1] [INFO] -> Trying HTTP connection to 8.8.4.4 in port 53.
+[2022-04-28 13:52:56,510] [Scanner 0] [INFO] -> HTTPS connection to 8.8.8.8 in port 53 failed.
+[2022-04-28 13:52:56,510] [Scanner 0] [INFO] -> Trying HTTP connection to 8.8.8.8 in port 53.
+[2022-04-28 13:52:57,951] [Scanner 3] [INFO] -> 127.0.0.1 not listening in port 53.
+[2022-04-28 13:52:57,951] [Scanner 3] [INFO] -> 127.0.0.1 not listening in port 53.
+[2022-04-28 13:52:57,951] [Scanner 3] [INFO] -> Checking connection to 127.0.0.1 in port 80.
+[2022-04-28 13:52:57,951] [Scanner 3] [INFO] -> Checking connection to 127.0.0.1 in port 80.
+[2022-04-28 13:52:58,661] [Scanner 1] [INFO] -> HTTP connection to 8.8.4.4 in port 53 failed.
+[2022-04-28 13:52:58,661] [Scanner 1] [INFO] -> Checking connection to 8.8.4.4 in port 80.
+[2022-04-28 13:52:58,681] [Scanner 0] [INFO] -> HTTP connection to 8.8.8.8 in port 53 failed.
+[2022-04-28 13:52:58,681] [Scanner 0] [INFO] -> Checking connection to 8.8.8.8 in port 80.
+[2022-04-28 13:53:00,002] [Scanner 3] [INFO] -> 127.0.0.1 not listening in port 80.
+[2022-04-28 13:53:00,002] [Scanner 3] [INFO] -> 127.0.0.1 not listening in port 80.
+[2022-04-28 13:53:00,002] [Scanner 3] [INFO] -> Checking connection to 127.0.0.1 in port 443.
+[2022-04-28 13:53:00,002] [Scanner 3] [INFO] -> Checking connection to 127.0.0.1 in port 443.
+[2022-04-28 13:53:01,662] [Scanner 1] [INFO] -> 8.8.4.4 not listening in port 80.
+[2022-04-28 13:53:01,662] [Scanner 1] [INFO] -> Checking connection to 8.8.4.4 in port 443.
+[2022-04-28 13:53:01,693] [Scanner 0] [INFO] -> 8.8.8.8 not listening in port 80.
+[2022-04-28 13:53:01,693] [Scanner 0] [INFO] -> Checking connection to 8.8.8.8 in port 443.
+[2022-04-28 13:53:01,754] [Scanner 1] [INFO] -> 8.8.4.4 listening in port 443.
+[2022-04-28 13:53:01,754] [Scanner 1] [INFO] -> Trying HTTPS connection to 8.8.4.4 in port 443.
+[2022-04-28 13:53:01,780] [Scanner 0] [INFO] -> 8.8.8.8 listening in port 443.
+[2022-04-28 13:53:01,780] [Scanner 0] [INFO] -> Trying HTTPS connection to 8.8.8.8 in port 443.
+[2022-04-28 13:53:02,033] [Scanner 3] [INFO] -> 127.0.0.1 not listening in port 443.
+[2022-04-28 13:53:02,033] [Scanner 3] [INFO] -> 127.0.0.1 not listening in port 443.
+[2022-04-28 13:53:02,033] [Scanner 3] [INFO] -> Done checking 127.0.0.1
+[2022-04-28 13:53:02,033] [Scanner 3] [INFO] -> Done checking 127.0.0.1
+[2022-04-28 13:53:02,328] [Scanner 1] [INFO] -> Done checking 8.8.4.4
+[2022-04-28 13:53:02,374] [Scanner 0] [INFO] -> Done checking 8.8.8.8
+[2022-04-28 13:53:04,251] [Scanner 2] [INFO] -> HTTPS connection to 1.1.1.1 in port 53 failed.
+[2022-04-28 13:53:04,252] [Scanner 2] [INFO] -> Trying HTTP connection to 1.1.1.1 in port 53.
+[2022-04-28 13:53:14,292] [Scanner 2] [INFO] -> HTTP connection to 1.1.1.1 in port 53 failed.
+[2022-04-28 13:53:14,293] [Scanner 2] [INFO] -> Checking connection to 1.1.1.1 in port 80.
+[2022-04-28 13:53:14,327] [Scanner 2] [INFO] -> 1.1.1.1 listening in port 80.
+[2022-04-28 13:53:14,327] [Scanner 2] [INFO] -> Trying HTTPS connection to 1.1.1.1 in port 80.
+[2022-04-28 13:53:14,373] [Scanner 2] [INFO] -> HTTPS connection to 1.1.1.1 in port 80 failed.
+[2022-04-28 13:53:14,373] [Scanner 2] [INFO] -> Trying HTTP connection to 1.1.1.1 in port 80.
+[2022-04-28 13:53:15,660] [Scanner 2] [INFO] -> Checking connection to 1.1.1.1 in port 443.
+[2022-04-28 13:53:15,697] [Scanner 2] [INFO] -> 1.1.1.1 listening in port 443.
+[2022-04-28 13:53:15,697] [Scanner 2] [INFO] -> Trying HTTPS connection to 1.1.1.1 in port 443.
+[2022-04-28 13:53:15,782] [Scanner 2] [INFO] -> Done checking 1.1.1.1
