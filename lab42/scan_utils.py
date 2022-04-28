@@ -2,7 +2,7 @@ import multiprocessing
 from typing import List, Optional
 from dataclasses import dataclass, field
 
-RESULTS_Q, REQUESTS_Q = multiprocessing.Queue(), multiprocessing.Queue()
+RESULTS_QUEUE, REQUESTS_QUEUE = multiprocessing.Queue(), multiprocessing.Queue()
 
 
 @dataclass
@@ -50,7 +50,8 @@ class ScanResult:
 
         :return: Scan result as string.
         """
-        self.output = f'Host {self.ipv4} is alive: {self.is_alive}'
+        self.output = '=============================================='
+        self.output += f'\nHost {self.ipv4} is alive: {self.is_alive}'
         for port in self.ports:
             self.output += "\n" + str(port)
         self.output += '\n=============================================='
@@ -62,6 +63,6 @@ def create_requests() -> None:
     For testing scanner
     """
     ports = [1, 22, 53, 80, 443]
-    ips = ['8.8.8.8', '8.8.4.4', '1.1.1.1', '127.0.0.1']
+    ips = ['2.2.2.2', '8.8.8.8', '8.8.4.4', '1.1.1.1', '127.0.0.1']
     for i in range(len(ips)):
-        REQUESTS_Q.put(ScanRequest(id=i, ipv4=ips[i], ports=ports))
+        REQUESTS_QUEUE.put(ScanRequest(id=i, ipv4=ips[i], ports=ports))
