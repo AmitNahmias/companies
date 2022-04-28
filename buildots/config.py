@@ -1,0 +1,10 @@
+IMAGE_DOWNLOADER_INPUT_DIR = r'D:\PyCharm\PycharmProjects\companies\buildots\input_dir_downloader'
+IMAGE_DOWNLOADER_OUTPUT_DIR = r'D:\PyCharm\PycharmProjects\companies\buildots\output_dir_downloader'
+PROJECTOR_OUTPUT_DIR = r'D:\PyCharm\PycharmProjects\companies\buildots\output_dir_projector'
+EDGE_DETECTOR_OUTPUT_DIR = r"D:\PyCharm\PycharmProjects\companies\buildots\output_dir_edge_detector"
+ANALYZER_OUTPUT_DIR = r"D:\PyCharm\PycharmProjects\companies\buildots\output_dir_analyzer"
+INTERVAL_TIME = 5  # in seconds
+PROJECTOR_INPUT = 'projector'
+EDGE_DETECTION_INPUT = 'edge_detection'
+PNG_THRESHOLD = (100, 200)
+THRESHOLD = (100, 150)
