@@ -176,7 +176,7 @@ def start(request_queue: multiprocessing.Queue,
             host: ScanRequest = request_queue.get()
             scanner = Scanner(host=host, scanner_id=scanner_id)
             result = scanner.run()
-            print(result)  # If you want to print each result
+            # print(result)  # If you want to print each result
             responses_queue.put(obj=result)
     except KeyboardInterrupt:
         print('Done for today :)')
