@@ -9,7 +9,7 @@ from lab42.scan_utils import ScanRequest, ScanResult, PortResult, \
     create_requests, REQUESTS_QUEUE, RESULTS_QUEUE
 
 ICMP_PACKETS_TO_SEND = '1'  # as string, sends only one to reduce time
-PING_REQUEST_TIMEOUT = 7  # in seconds
+PING_REQUEST_TIMEOUT = 5  # in seconds
 SOCKET_TIMEOUT = 3  # in seconds
 SUCCESS_RETURN_CODE = 0
 HTTP_FORMAT = 'http://{host_ip}:{host_port}/'

@@ -62,7 +62,8 @@ def create_requests() -> None:
     """
     For testing scanner
     """
-    ports = [1, 22, 53, 80, 443]
-    ips = ['2.2.2.2', '8.8.8.8', '8.8.4.4', '1.1.1.1', '127.0.0.1']
+    ports = [1, 22, 53, 80, 443, 8080, 8443]
+    ips = ['2.2.2.2', '8.8.8.8', '8.8.4.4', '1.1.1.1',
+           '127.0.0.1', '142.251.33.206']
     for i in range(len(ips)):
         REQUESTS_QUEUE.put(ScanRequest(id=i, ipv4=ips[i], ports=ports))

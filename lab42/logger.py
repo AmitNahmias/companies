@@ -15,10 +15,12 @@ def setup_logger(logger_id: int) -> logging.Logger:
     logger = logging.getLogger(name=LOGGER_NAME.format(scanner_id=logger_id))
     logger.setLevel(logging.DEBUG)
     formatter = logging.Formatter(LOG_FORMAT)
-    stream_handler = create_stream_handler(formatter=formatter)
-    file_handler = create_file_handler(formatter=formatter)
-    logger.addHandler(file_handler)
-    logger.addHandler(stream_handler)
+    if not getattr(logger, 'handler_set', None):
+        stream_handler = create_stream_handler(formatter=formatter)
+        file_handler = create_file_handler(formatter=formatter)
+        logger.addHandler(file_handler)
+        logger.addHandler(stream_handler)
+        logger.handler_set = True
     return logger
 
 
